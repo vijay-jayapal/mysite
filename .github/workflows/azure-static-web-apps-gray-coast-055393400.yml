@@ -21,7 +21,7 @@ jobs:
           lfs: false
           
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v9.1.17.0
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2.2
           
