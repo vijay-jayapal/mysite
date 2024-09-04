@@ -21,9 +21,9 @@ jobs:
           lfs: false
           
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1.59.1
+        uses: ruby/setup-ruby@v9.1.17.0
         with:
-          ruby-version: 3.0.0
+          ruby-version: 3.2.2
           
       - name: Install dependencies
         run: bundle install
