@@ -16,13 +16,10 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
         with:
           submodules: true
           lfs: false
-          
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
           ruby-version: 3.2.2
           
       - name: Install dependencies
